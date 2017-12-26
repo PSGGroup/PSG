@@ -1,5 +1,9 @@
 * {margin:0; padding:0;}
+<<<<<<< HEAD
 body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px;width:100%;height:100%;position:absolute;z-index:-1; }
+=======
+body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px; background-size: cover;}
+>>>>>>> 15d56c1254e72ff71cc3efc26fb2c31f3294f507
 .wapper {width:1000px;margin:0 auto;background:#fff;overflow:hidden;}
 .header {width:1000px;height:168px;background:url('../images/3.png');}
 .nav {width:1000px;height:38px;line-height:38px;text-align:center;14px;background-color:red;}
