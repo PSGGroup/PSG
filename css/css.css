@@ -1,5 +1,5 @@
 * {margin:0; padding:0;}
-body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px; }
+body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px; background-size: cover;}
 .wapper {width:1000px;margin:0 auto;background:#fff;overflow:hidden;}
 .header {width:1000px;height:168px;background:url('../images/3.png');}
 .nav {width:1000px;height:38px;line-height:38px;text-align:center;14px;background-color:red;}
