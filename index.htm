@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <head>
+<script type="text/javascript">
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+{ 
+c_start=document.cookie.indexOf(c_name + "=")
+if (c_start!=-1)
+{ 
+c_start=c_start + c_name.length+1 
+c_end=document.cookie.indexOf(";",c_start)
+if (c_end==-1) c_end=document.cookie.length
+return unescape(document.cookie.substring(c_start,c_end))
+} 
+}
+return ""
+}
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date()
+exdate.setDate(exdate.getDate()+expiredays)
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : "; expires="+exdate.toGMTString())
+}
+
+function checkCookie()
+{
+username=getCookie('username')
+if (username!=null && username!="")
+  {alert('Welcome again '+username+'!')}
+else 
+  {
+  username=prompt('Please enter your name:',"")
+  if (username!=null && username!="")
+    {
+    setCookie('username',username,365)
+    }
+  }
+}
+</script>
 <link rel="stylesheet" type="text/css" href="css/css.css">
-<title>learn the web easily </title>
+<title>Merry Xmas</title>
 </head>
-<body>
+<body onLoad="checkCookie()">
 
 <div class="wapper">
 <div class="header">
 <img src="images/8.png" alt="aa"/></div>
-<div class="nav"><a href="index.htm">Home</a><a href="intro.htm">Introduction</a><a href="gifts.htm">gifts</a></div>
+<div class="nav"><a href="index.htm">Home</a><a href="Contact.htm">contact</a><a href="About.htm">about</a></div>
 <div class="clearfloat"></div>
 <div class="banner">
 
@@ -29,19 +69,19 @@
 <h4 class="tit_h4"><span>Merry Christmas</span></h4>
 
 <ul class="publeftnav">
-<li><a href="4.htm">Christmas food</a></li>
+<li><a href="1.htm">Introduction</a></li>
 <table border="0" width="100%">
 	<tr>
 		<td>&nbsp;</td>
 	</tr>
 </table>
-<li><a href="5.htm">christmas game</a></li>
+<li><a href="2.htm">Game</a></li>
 <table border="0" width="100%">
 	<tr>
 		<td>&nbsp;</td>
 	</tr>
 </table>
-<li><a href="6.htm">christmas clothes</a></li>
+<li><a href="3.htm">Eve</a></li>
 
 </div>
 
@@ -49,17 +89,12 @@
 
 <div class="rightmain">
 <div class="pp">
-<div class="maincontainer_box">
-<div class="iaboutcon">
+
 <h2 class="tit_h2"><span>Christmas</span></h2>
 
 
 
-<p>Christmas (Christmas), also known as Christmas, the birthday of Jesus, translated as "the Mass of Christ", the traditional Western festival, December 25 each year. Mass is a kind of liturgy of the church. Christmas is a religious festival, because it is celebrated as Jesus' birthday, hence the name "Christmas." [1]
-
-Most Catholic churches will hold Midnight Mass on Christmas Eve 24, the early morning of December 25, while some Christian churches will hold their gospel and celebrate Christmas on December 25, and another large Christian Branch - Orthodox Christmas celebrations in the January 7 each year.
-
-Christmas is also a public holiday in the Western world and many other places, such as Hong Kong, Macau, Malaysia and Singapore in Asia. Ancient Roman Church in the Constantine era (AD 313), it is gradually used to celebrate the birth of the Lord on December 25.</p>
+<p></p>
 
 </div>
 <table border="0" width="100%">
@@ -70,10 +105,7 @@ Christmas is also a public holiday in the Western world and many other places, s
 
 </div>
 
-</div>
 
-
-</div>
 
 </div>
 <div class="footer">
