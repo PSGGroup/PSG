@@ -1,13 +1,9 @@
 * {margin:0; padding:0;}
-<<<<<<< HEAD
-body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px;width:100%;height:100%;position:absolute;z-index:-1; }
-=======
-body { background:url('../images/1.jpg');margin:0px;font-family:Verdana;font-size:12px; background-size: cover;}
->>>>>>> 15d56c1254e72ff71cc3efc26fb2c31f3294f507
-.wapper {width:1000px;margin:0 auto;background:#fff;overflow:hidden;}
-.header {width:1000px;height:168px;background:url('../images/3.png');}
+body { background:url('../images/timg.jpg');margin:0px;font-family:Verdana;font-size:12px;color:#fff;background-size:cover; }
+.wapper {width:1000px;margin:0 auto;;overflow:hidden;}
+.header {width:1000px;height:150px;}
 .nav {width:1000px;height:38px;line-height:38px;text-align:center;14px;background-color:red;}
-.banner {width:1000px;height:150px;}
+.banner {width:1000px;height:168px;background:url('../images/3.png');opacity:0.5;}
 .nav a {display:block;float:left;width:100px;height:37px;line-height:37px;color:#fff;padding:0 10px;}
 .leftside {float:left;width:242px;}
 .publeftnav a {display:block;width:183px;height:32px;color:#333;line-height:32px;text-align:left;padding-left:42px;background:url("../images/publeftnavbg.jpg");}

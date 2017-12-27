@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+<script type="text/javascript">
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+{ 
+c_start=document.cookie.indexOf(c_name + "=")
+if (c_start!=-1)
+{ 
+c_start=c_start + c_name.length+1 
+c_end=document.cookie.indexOf(";",c_start)
+if (c_end==-1) c_end=document.cookie.length
+return unescape(document.cookie.substring(c_start,c_end))
+} 
+}
+return ""
+}
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date()
+exdate.setDate(exdate.getDate()+expiredays)
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : "; expires="+exdate.toGMTString())
+}
+
+function checkCookie()
+{
+username=getCookie('username')
+if (username!=null && username!="")
+  {alert('Welcome again '+username+'!')}
+else 
+  {
+  username=prompt('Please enter your name:',"")
+  if (username!=null && username!="")
+    {
+    setCookie('username',username,365)
+    }
+  }
+}
+</script>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<title>Merry Xmas</title>
+</head>
+<body onLoad="checkCookie()">
+
+<div class="wapper">
+<div class="header">
+<img src="images/8.png" alt="aa"/></div>
+<div class="nav"><a href="index.htm">Home</a><a href="Contact.htm">contact</a><a href="About.htm">about</a></div>
+<div class="clearfloat"></div>
+<div class="banner">
+
+
+</div>		
+
+</div>
+
+<div class="wapper">
+<div class="leftside">
+
+<table border="0" width="100%">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+<h4 class="tit_h4"><span>Merry Christmas</span></h4>
+
+<ul class="publeftnav">
+<li><a href="1.htm">Introduction</a></li>
+<table border="0" width="100%">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<li><a href="2.htm">Game</a></li>
+<table border="0" width="100%">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<li><a href="3.htm">Eve</a></li>
+
+</div>
+
+
+
+<div class="rightmain">
+<div class="pp">
+<div class="maincontainer_box">
+<div class="iaboutcon">
+<h2 class="tit_h2"><span>Christmas</span></h2>
+
+
+
+<p></p>
+
+</div>
+<table border="0" width="100%">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+<div class="footer">
+
+  <p>Posted by: PSG</p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
