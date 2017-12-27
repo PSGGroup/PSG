@@ -13,12 +13,5 @@ body { background:url('../images/timg.jpg');margin:0px;font-family:Verdana;font-
 .tit_h4 {font-size:25px;color:blue;}
 .tit_h2 a {float:left;color:blue;font-size:12px;font-weight:normal;margin-right:10px;}
 .pp{font-size:25px;}
-.ppp{font-size:25px£»line-height:5.0}
-.pppp{font-size:14px£»}
-.bookimg{width:300px;height:355px; margin:10px 10px 10px 185px;}
-.bookimgleft{width:500px;height:200px; margin:10px 10px 10px 10px;}
-.bookimgleft1{width:500px;height:300px; margin:10px 10px 10px 10px;}
-.bookimgleft2{width:750px;height:350px; margin:10px 10px 10px 10px;}
-.bookimgleft3{width:500px;height:250px; margin:10px 10px 10px 10px;}
-.bookimgleft4{width:500px;height:100px; margin:10px 10px 10px 10px;}
 .footer {font-size:14px£» width: 100%;}
+.gift{width:500px;height:500px; margin:10px 50px 20px 130px;}
