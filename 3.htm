@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <head>
-
+<link rel="icon" href="logo.ico" type="image/x-icon"/>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />  
 <link rel="stylesheet" type="text/css" href="css/css.css">
 <title>Merry Xmas</title>
 </head>
 <body onLoad="checkCookie()">
-<a href="index.htm"><img src="images/8.png" alt="aa"/></a>
+<img src="images/ic.png" style="position:absolute;left:200px;top:50px;"/>
+
+<style> 
+
+#myCanvas  
+{  
+    position:absolute;  
+    left:600px;  
+    top:220px;  
+    border:1px solid #c3c3c3;  
+    margin:auto;  
+    background:white;  
+}  
+img  
+{  
+    display:none;  
+}  
+</style>  
+  
+<img src="images/santa.jpg" id="santaImg">  
+<img src="images/enemyL.jpg" id="enemyLImg">  
+<img src="images/enemyM.jpg" id="enemyMImg">  
+<img src="images/enemyS.jpg" id="enemySImg">  
+<img src="images/bullet.jpg" id="bulletImg">  
+<img src="images/explode.jpg" id="explodeImg">  
+  
+<canvas id="myCanvas" width="500" height="600">  
+Your browser does not support the canvas element.  
+</canvas>  
+  
+<script type="text/javascript" src="Game.js"></script> 
+<a href="index.htm"><img src="images/psglogo.jpg" alt="aa"/></a>
 <div class="wapper">
 
 <div class="nav"><a href="index.htm">Home</a><a href="Contact.htm">contact</a><a href="about.htm">About</a></div>
@@ -80,7 +112,7 @@
 
 
 </div>
-<div class="footer">
+<div class="footer" align="right">
 
   <p>Posted by: PSG</p>
 </div>
